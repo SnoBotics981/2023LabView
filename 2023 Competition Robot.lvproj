@@ -430,6 +430,7 @@
 				<Item Name="Spark MAX Clear Faults.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/Spark MAX Clear Faults.vi"/>
 				<Item Name="Spark MAX Get Parameter Raw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/Spark MAX Get Parameter Raw.vi"/>
 				<Item Name="Spark MAX Get Cached Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Private/Spark MAX Get Cached Parameter.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Parallax Standard Servo.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Parallax Standard Servo/HAIOL/Parallax Standard Servo.lvclass"/>
@@ -473,6 +474,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Init Victor SPX Motor With CVS File.vi" Type="VI" URL="../../981LabViewComponents/2023 Init Victor SPX Motor With CVS File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -570,7 +572,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="2023 Gripper Control.vi" Type="VI" URL="../../2022LabView/2023 Gripper Control.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -586,7 +587,11 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorController_GetPercentOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Get/CTRE_Phoenix_MotorController_GetPercentOutput.vi"/>
 				<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
 				<Item Name="DIO data proto.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Simulation/Protocol/Devices/DIO/DIO data proto.ctl"/>
@@ -1147,10 +1152,14 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../981LabViewComponents/2023 Create Constants from CVS Spreadsheet.vi"/>
 			<Item Name="2023 Create CVS Control Spreadsheet.vi" Type="VI" URL="../../981LabViewComponents/2023 Create CVS Control Spreadsheet.vi"/>
+			<Item Name="2023 Elbow Control.vi" Type="VI" URL="../../981LabViewComponents/2023 Elbow Control.vi"/>
+			<Item Name="2023 Gripper Control.vi" Type="VI" URL="../../981LabViewComponents/2023 Gripper Control.vi"/>
 			<Item Name="2023 Gripper Init Spark Max With CVS File.vi" Type="VI" URL="../../981LabViewComponents/2023 Gripper Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Init Victor SPX Motor With CVS File.vi" Type="VI" URL="../../981LabViewComponents/2023 Init Victor SPX Motor With CVS File.vi"/>
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../981LabViewComponents/2023 Robot Global Data.vi"/>
 			<Item Name="2023 Teleop Arm Control.vi" Type="VI" URL="../../981LabViewComponents/2023 Teleop Arm Control.vi"/>
+			<Item Name="2023 Teleop Zero Setpoint.vi" Type="VI" URL="../../981LabViewComponents/2023 Teleop Zero Setpoint.vi"/>
 			<Item Name="2023-BeginLogic.vi" Type="VI" URL="../../981LabViewComponents/2023-BeginLogic.vi"/>
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../981LabViewComponents/ConstantSpreadSheet.vi"/>
 			<Item Name="Create Arm Constants.vi" Type="VI" URL="../../981LabViewComponents/Create Arm Constants.vi"/>
@@ -1182,6 +1191,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Set Arm Setpoint.vi" Type="VI" URL="../../981LabViewComponents/Set Arm Setpoint.vi"/>
 			<Item Name="SpreadSheetGlobal.vi" Type="VI" URL="../../981LabViewComponents/SpreadSheetGlobal.vi"/>
 			<Item Name="Teleop Arm with Setpoint Control.vi" Type="VI" URL="../../981LabViewComponents/Teleop Arm with Setpoint Control.vi"/>
+			<Item Name="Teleop Arm with Zero Setpoint.vi" Type="VI" URL="../../981LabViewComponents/Teleop Arm with Zero Setpoint.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1200,7 +1210,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">41</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
