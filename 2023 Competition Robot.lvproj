@@ -1162,6 +1162,7 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../981LabViewComponents/2023 Robot Global Data.vi"/>
 			<Item Name="2023 Teleop Arm Control.vi" Type="VI" URL="../../981LabViewComponents/2023 Teleop Arm Control.vi"/>
+			<Item Name="2023 Teleop Arm PID Control.vi" Type="VI" URL="../../981LabViewComponents/2023 Teleop Arm PID Control.vi"/>
 			<Item Name="2023 Teleop Zero Setpoint.vi" Type="VI" URL="../../981LabViewComponents/2023 Teleop Zero Setpoint.vi"/>
 			<Item Name="2023-BeginLogic.vi" Type="VI" URL="../../981LabViewComponents/2023-BeginLogic.vi"/>
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../981LabViewComponents/ConstantSpreadSheet.vi"/>
@@ -1193,6 +1194,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Set Arm PID Constants.vi" Type="VI" URL="../../981LabViewComponents/Set Arm PID Constants.vi"/>
 			<Item Name="Set Arm Setpoint.vi" Type="VI" URL="../../981LabViewComponents/Set Arm Setpoint.vi"/>
 			<Item Name="SpreadSheetGlobal.vi" Type="VI" URL="../../981LabViewComponents/SpreadSheetGlobal.vi"/>
+			<Item Name="Teleop Arm with PID Control.vi" Type="VI" URL="../../981LabViewComponents/Teleop Arm with PID Control.vi"/>
 			<Item Name="Teleop Arm with Setpoint Control.vi" Type="VI" URL="../../981LabViewComponents/Teleop Arm with Setpoint Control.vi"/>
 			<Item Name="Teleop Arm with Zero Setpoint.vi" Type="VI" URL="../../981LabViewComponents/Teleop Arm with Zero Setpoint.vi"/>
 		</Item>
@@ -1213,7 +1215,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
