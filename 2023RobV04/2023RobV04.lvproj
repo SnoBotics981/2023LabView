@@ -1162,6 +1162,7 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 Teleop Init Case.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Init Case.vi"/>
 			<Item Name="2023 Teleop Zero Setpoint.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Zero Setpoint.vi"/>
 			<Item Name="2023 Wrist Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Wrist with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist with PID Control.vi"/>
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../../981LabViewComponents/ConstantSpreadSheet.vi"/>
 			<Item Name="Create Arm Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Arm Constants.vi"/>
 			<Item Name="Create Wrist Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Wrist Constants.vi"/>
@@ -1215,7 +1216,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
