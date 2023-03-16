@@ -988,6 +988,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_JoystickRatioCurveMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRatioCurveMapping.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
+				<Item Name="WPI_JoystickTankMapping.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickTankMapping.vi"/>
 				<Item Name="WPI_MotorControlClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlClose.vi"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
 				<Item Name="WPI_MotorControlDisable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisable.vi"/>
@@ -1097,6 +1098,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_RobotDriveSafetyError.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyError.vi"/>
 				<Item Name="WPI_RobotDriveSafetyTest.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyTest.vi"/>
 				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
+				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="WPI_SafetyOutputCheckMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputCheckMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputConfigMenu.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputConfigMenu.ctl"/>
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
@@ -1157,7 +1159,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Z900_navX_ZeroVectorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ZeroVectorTypeDef.ctl"/>
 				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
-			<Item Name="2022 Robot Global Data.vi" Type="VI" URL="../../../981LabViewComponents/2022 Robot Global Data.vi"/>
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 Begin Logic.vi" Type="VI" URL="../../../981LabViewComponents/2023 Begin Logic.vi"/>
 			<Item Name="2023 Create Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Arm Reach Spreadsheet.vi"/>
@@ -1165,13 +1166,14 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 Create CVS Control Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create CVS Control Spreadsheet.vi"/>
 			<Item Name="2023 Get Arm Sensor Info.vi" Type="VI" URL="../../../981LabViewComponents/2023 Get Arm Sensor Info.vi"/>
 			<Item Name="2023 Get Wrist Sensor Info.vi" Type="VI" URL="../../../981LabViewComponents/2023 Get Wrist Sensor Info.vi"/>
+			<Item Name="2023 Gripper Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Gripper Control.vi"/>
 			<Item Name="2023 Gripper Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Gripper Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
-			<Item Name="2023 new Teleop Arm with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 new Teleop Arm with PID Control.vi"/>
 			<Item Name="2023 Read NavX.vi" Type="VI" URL="../../../981LabViewComponents/2023 Read NavX.vi"/>
 			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../../981LabViewComponents/2023 Robot Global Data.vi"/>
 			<Item Name="2023 Set Arm Setpoint.vi" Type="VI" URL="../../../981LabViewComponents/2023 Set Arm Setpoint.vi"/>
 			<Item Name="2023 Set Wrist Setpoint.vi" Type="VI" URL="../../../981LabViewComponents/2023 Set Wrist Setpoint.vi"/>
+			<Item Name="2023 Teleop Arm with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Arm with PID Control.vi"/>
 			<Item Name="2023 Teleop Init Case.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Init Case.vi"/>
 			<Item Name="2023 Wrist Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 Wrist with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist with PID Control.vi"/>
@@ -1186,7 +1188,6 @@ AddOutputFilter chunkFilter
 			<Item Name="FRC_NetworkTablesLV.dll" Type="Document" URL="FRC_NetworkTablesLV.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Arm Sensor Info.vi" Type="VI" URL="../../../981LabViewComponents/Get Arm Sensor Info.vi"/>
 			<Item Name="Init Joystics.vi" Type="VI" URL="../../../981LabViewComponents/Init Joystics.vi"/>
 			<Item Name="Init Talon Drive Motors With CVS Files.vi" Type="VI" URL="../../../981LabViewComponents/Init Talon Drive Motors With CVS Files.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -1223,7 +1224,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
