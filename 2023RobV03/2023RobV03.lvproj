@@ -563,14 +563,17 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 Begin Logic.vi" Type="VI" URL="../../../981LabViewComponents/2023 Begin Logic.vi"/>
+			<Item Name="2023 Create Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Arm Reach Spreadsheet.vi"/>
 			<Item Name="2023 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Constants from CVS Spreadsheet.vi"/>
 			<Item Name="2023 Create CVS Control Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create CVS Control Spreadsheet.vi"/>
 			<Item Name="2023 Gripper Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Gripper Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../../981LabViewComponents/2023 Robot Global Data.vi"/>
 			<Item Name="2023 Wrist Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist Init Spark Max With CVS File.vi"/>
+			<Item Name="2023ArmReachSpreadsheetGlobal.vi" Type="VI" URL="../../../981LabViewComponents/2023ArmReachSpreadsheetGlobal.vi"/>
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../../981LabViewComponents/ConstantSpreadSheet.vi"/>
 			<Item Name="Create Arm Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Arm Constants.vi"/>
+			<Item Name="Create Wrist Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Wrist Constants.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -594,6 +597,7 @@ AddOutputFilter chunkFilter
 			<Item Name="ReadConstantSpreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/ReadConstantSpreadsheet.vi"/>
 			<Item Name="ReadCsvControlSpreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/ReadCsvControlSpreadsheet.vi"/>
 			<Item Name="Set Arm PID Constants.vi" Type="VI" URL="../../../981LabViewComponents/Set Arm PID Constants.vi"/>
+			<Item Name="Set Wrist PID Constants.vi" Type="VI" URL="../../../981LabViewComponents/Set Wrist PID Constants.vi"/>
 			<Item Name="SpreadSheetGlobal.vi" Type="VI" URL="../../../981LabViewComponents/SpreadSheetGlobal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -613,7 +617,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
