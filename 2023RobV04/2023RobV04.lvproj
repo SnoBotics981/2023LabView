@@ -581,6 +581,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="2023 State Calculation.vi" Type="VI" URL="../../../981LabViewComponents/2023 State Calculation.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1152,6 +1153,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
 			</Item>
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Arm Setpoint with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Setpoint with PID Control.vi"/>
 			<Item Name="2023 Begin Logic.vi" Type="VI" URL="../../../981LabViewComponents/2023 Begin Logic.vi"/>
 			<Item Name="2023 Create Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Arm Reach Spreadsheet.vi"/>
 			<Item Name="2023 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Constants from CVS Spreadsheet.vi"/>
@@ -1163,17 +1165,13 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 			<Item Name="2023 Input Arm To Wrist Global.vi" Type="VI" URL="../../../981LabViewComponents/2023 Input Arm To Wrist Global.vi"/>
 			<Item Name="2023 Process Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Process Arm Reach Spreadsheet.vi"/>
-			<Item Name="2023 Read Arm to Phi Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Read Arm to Phi Spreadsheet.vi"/>
 			<Item Name="2023 Read NavX.vi" Type="VI" URL="../../../981LabViewComponents/2023 Read NavX.vi"/>
 			<Item Name="2023 Robot Global Data.vi" Type="VI" URL="../../../981LabViewComponents/2023 Robot Global Data.vi"/>
-			<Item Name="2023 Set Arm Setpoint.vi" Type="VI" URL="../../../981LabViewComponents/2023 Set Arm Setpoint.vi"/>
-			<Item Name="2023 Set Wrist Setpoint.vi" Type="VI" URL="../../../981LabViewComponents/2023 Set Wrist Setpoint.vi"/>
 			<Item Name="2023 Teleop Arm with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Arm with PID Control.vi"/>
-			<Item Name="2023 Teleop Init Case.vi" Type="VI" URL="../../../981LabViewComponents/2023 Teleop Init Case.vi"/>
 			<Item Name="2023 Wrist Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Wrist Setpoint with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist Setpoint with PID Control.vi"/>
 			<Item Name="2023 Wrist with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Wrist with PID Control.vi"/>
 			<Item Name="2023ArmReachSpreadsheetGlobal.vi" Type="VI" URL="../../../981LabViewComponents/2023ArmReachSpreadsheetGlobal.vi"/>
-			<Item Name="armEncoderCountsToAngle.vi" Type="VI" URL="../../../981LabViewComponents/armEncoderCountsToAngle.vi"/>
 			<Item Name="ConstantSpreadSheet.vi" Type="VI" URL="../../../981LabViewComponents/ConstantSpreadSheet.vi"/>
 			<Item Name="Create Arm Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Arm Constants.vi"/>
 			<Item Name="Create Wrist Constants.vi" Type="VI" URL="../../../981LabViewComponents/Create Wrist Constants.vi"/>
@@ -1203,7 +1201,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Set Arm PID Constants.vi" Type="VI" URL="../../../981LabViewComponents/Set Arm PID Constants.vi"/>
 			<Item Name="Set Wrist PID Constants.vi" Type="VI" URL="../../../981LabViewComponents/Set Wrist PID Constants.vi"/>
 			<Item Name="SpreadSheetGlobal.vi" Type="VI" URL="../../../981LabViewComponents/SpreadSheetGlobal.vi"/>
-			<Item Name="wristAngleToEncoderCounts.vi" Type="VI" URL="../../../981LabViewComponents/wristAngleToEncoderCounts.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -1221,7 +1218,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">81</Property>
+				<Property Name="Bld_version.build" Type="Int">85</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
