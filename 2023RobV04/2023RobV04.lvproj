@@ -581,7 +581,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="2023 State Calculation.vi" Type="VI" URL="../../../981LabViewComponents/2023 State Calculation.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1155,13 +1154,16 @@ AddOutputFilter chunkFilter
 			<Item Name="2023 Arm Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Init Spark Max With CVS File.vi"/>
 			<Item Name="2023 Arm Setpoint with PID Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Arm Setpoint with PID Control.vi"/>
 			<Item Name="2023 Begin Logic.vi" Type="VI" URL="../../../981LabViewComponents/2023 Begin Logic.vi"/>
+			<Item Name="2023 Check for End Condition of FSM.vi" Type="VI" URL="../../../981LabViewComponents/2023 Check for End Condition of FSM.vi"/>
 			<Item Name="2023 Create Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Arm Reach Spreadsheet.vi"/>
 			<Item Name="2023 Create Constants from CVS Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create Constants from CVS Spreadsheet.vi"/>
 			<Item Name="2023 Create CVS Control Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Create CVS Control Spreadsheet.vi"/>
+			<Item Name="2023 FMS Arm and Wrist Controller.vi" Type="VI" URL="../../../981LabViewComponents/2023 FMS Arm and Wrist Controller.vi"/>
 			<Item Name="2023 Get Arm Sensor Info.vi" Type="VI" URL="../../../981LabViewComponents/2023 Get Arm Sensor Info.vi"/>
 			<Item Name="2023 Get Wrist Sensor Info.vi" Type="VI" URL="../../../981LabViewComponents/2023 Get Wrist Sensor Info.vi"/>
 			<Item Name="2023 Gripper Control.vi" Type="VI" URL="../../../981LabViewComponents/2023 Gripper Control.vi"/>
 			<Item Name="2023 Gripper Init Spark Max With CVS File.vi" Type="VI" URL="../../../981LabViewComponents/2023 Gripper Init Spark Max With CVS File.vi"/>
+			<Item Name="2023 Increment teleopCounter.vi" Type="VI" URL="../../../981LabViewComponents/2023 Increment teleopCounter.vi"/>
 			<Item Name="2023 InitGlobalConstants.vi" Type="VI" URL="../../../981LabViewComponents/2023 InitGlobalConstants.vi"/>
 			<Item Name="2023 Input Arm To Wrist Global.vi" Type="VI" URL="../../../981LabViewComponents/2023 Input Arm To Wrist Global.vi"/>
 			<Item Name="2023 Process Arm Reach Spreadsheet.vi" Type="VI" URL="../../../981LabViewComponents/2023 Process Arm Reach Spreadsheet.vi"/>
@@ -1218,7 +1220,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">85</Property>
+				<Property Name="Bld_version.build" Type="Int">89</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
